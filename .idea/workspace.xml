@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a7eadaf9-712f-4db9-965b-af1e689461c1" name="Changes" comment="my_take_out">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/common/BaseContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/common/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/common/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/common/JacksonObjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/common/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/common/myMetaObjectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/config/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/controller/AddressBookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/controller/CommonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/controller/DishController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/controller/OrdersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/controller/SetmealController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/controller/ShoppingCartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/domain/AddressBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/domain/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/domain/Dish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/domain/DishFlavor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/domain/OrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/domain/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/domain/Setmeal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/domain/SetmealDish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/domain/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/dto/DishDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/dto/OrdersDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/dto/SetmealDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/filter/loginCheckFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/mapper/AddressBookMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/mapper/DishFlavorMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/mapper/DishMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/mapper/OrderDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/mapper/OrdersMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/mapper/SetmealDishMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/mapper/SetmealMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/mapper/ShoppingCartMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/service/AddressBookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/service/DishFlavorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/service/DishService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/service/Impl/AddressBookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/service/Impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/service/Impl/DishFlavorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/service/Impl/DishServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/service/Impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/service/Impl/OrderDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/service/Impl/OrdersServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/service/Impl/SetmealDishServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/service/Impl/SetmealServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/service/Impl/ShoppingCartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/service/OrderDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/service/OrdersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/service/SetmealDishService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/service/SetmealService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/service/ShoppingCartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/takeoutApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jia/util/ValidateCodeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/combo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/food.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/member.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/404-images/404-cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/404-images/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/btn_back@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/btn_clean@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/btn_close@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/icon_index.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/icon_upload@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/jine_m-2@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/renshu@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/xiangmujine@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/img_brand01@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/img_denglu_bj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/login/login-l.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/login/login-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/login/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/noImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/js/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/js/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/category/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/combo/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/combo/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/demo/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/food/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/food/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/login/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/member/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/member/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/order/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/axios/axios.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/element-ui/fonts/element-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/element-ui/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/element-ui/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/element-ui/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/vue/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/fonts/element-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/demo_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/api/address.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/api/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/api/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/api/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/fonts/DIN-Bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/fonts/DIN-Medium.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/fonts/PingFangSC-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/fonts/PingFangSC-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/fonts/PingFangSC-Semibold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/cart_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/checked_false.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/checked_true.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/demo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/demo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/demo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/demo4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/favico.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/headPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/locations.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/mainBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/money.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/noImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/no_order.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/no_wifi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/orders.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/subtract.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/women.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/js/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/js/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/js/vant.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/add-order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/address-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/address.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/no-wify.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/pay-success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/add-order.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/address-edit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/address.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/no-wify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/order.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/pay-success.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/vant.min.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="H:\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../apache-maven-3.8.1" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="H:\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2BWoi5Fd4yKMYKxtVDLTciVeXuS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;H:/my_take_out/src/main/java/com/jia/util&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;43860680988dc77c7fbb230d4b38beba&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\my_take_out\src\main\java\com\jia\util" />
+      <recent name="H:\my_take_out\src\main\resources\backend\page" />
+      <recent name="H:\my_take_out\src\main\java\com\jia\dto" />
+      <recent name="H:\my_take_out\src\main\resources\backend\page\demo" />
+      <recent name="H:\my_take_out\src\main\java\com\jia\common" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.takeoutApplication">
+    <configuration name="takeoutApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jia.takeoutApplication" />
+      <module name="my_take_out" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jia.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="takeoutApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="my_take_out" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jia.takeoutApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jia.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.takeoutApplication" />
+        <item itemvalue="Application.takeoutApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7eadaf9-712f-4db9-965b-af1e689461c1" name="Changes" comment="" />
+      <created>1657031328860</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657031328860</updated>
+      <workItem from="1657031331366" duration="7196000" />
+      <workItem from="1657071504252" duration="3208000" />
+      <workItem from="1657077095922" duration="203000" />
+      <workItem from="1657077641003" duration="1453000" />
+      <workItem from="1657158423673" duration="4433000" />
+      <workItem from="1657180556502" duration="16187000" />
+      <workItem from="1657246516587" duration="12686000" />
+      <workItem from="1657339726920" duration="21243000" />
+      <workItem from="1657418131993" duration="12987000" />
+      <workItem from="1657435366015" duration="13795000" />
+      <workItem from="1657503319598" duration="7209000" />
+      <workItem from="1657529568536" duration="7305000" />
+      <workItem from="1657552811160" duration="3001000" />
+      <workItem from="1657610754317" duration="2422000" />
+      <workItem from="1657624608830" duration="2945000" />
+      <workItem from="1657674229474" duration="5932000" />
+      <workItem from="1657782943565" duration="23162000" />
+      <workItem from="1657857815463" duration="11186000" />
+      <workItem from="1657937459210" duration="4820000" />
+      <workItem from="1657962028201" duration="3880000" />
+      <workItem from="1658147511238" duration="1438000" />
+      <workItem from="1658212653086" duration="5289000" />
+      <workItem from="1658302209088" duration="3721000" />
+      <workItem from="1658476948217" duration="2104000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="my_take_out" />
+    <option name="LAST_COMMIT_MESSAGE" value="my_take_out" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../repository/org/springframework/spring-webmvc/5.3.6/spring-webmvc-5.3.6.jar!/org/springframework/web/servlet/mvc/method/RequestMappingInfoHandlerMapping.class</url>
+          <line>176</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="16" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jia/controller/OrdersController.java</url>
+          <line>19</line>
+          <properties class="com.jia.controller.OrdersController" method="submit">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="dish" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/my_take_out$takeoutApplication.ic" NAME="takeoutApplication Coverage Results" MODIFIED="1657432591672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.jia.*</FILTER>
+    </SUITE>
+  </component>
+</project>
